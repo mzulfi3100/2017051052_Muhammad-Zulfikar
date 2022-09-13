@@ -21,10 +21,7 @@
             <li class="nav-item">
                 <a class="nav-link" href="/mahasiswa">Mahasiswa</a>
             </li>
-            <li class="nav-item">
-                <a class="nav-link disabled">Disabled</a>
-            </li>
             </ul>
         </div>
     </nav>
-    <h1><?= esc($title) ?></h1>
+    <h1 class="p-3" ><?= esc($title) ?></h1>
