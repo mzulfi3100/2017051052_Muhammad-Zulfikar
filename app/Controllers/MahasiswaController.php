@@ -64,11 +64,10 @@ class MahasiswaController extends BaseController
     public function edit($id)
     {
         $mahasiswaModel = new Mahasiswa();
-        $mahasiswa = $mahasiswaModel->find($id);
 
         $data = [
+            'mahasiswa' => $mahasiswaModel->find($id),
             'title' => "Edit Mahasiswa",
-            'mahasiswa' => $mahasiswa
         ];
 
         return view('mahasiswa/edit', $data);

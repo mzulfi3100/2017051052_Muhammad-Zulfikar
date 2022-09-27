@@ -12,10 +12,10 @@ scratch. This page gets rid of all links and provides the needed markup only.
   <!-- Google Font: Source Sans Pro -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
   <!-- Font Awesome Icons -->
-  <link rel="stylesheet" href="assets/AdminLTE/plugins/fontawesome-free/css/all.min.css">
+  <link rel="stylesheet" href="/assets/AdminLTE/plugins/fontawesome-free/css/all.min.css">
   <!-- Theme style -->
-  <link rel="stylesheet" href="assets/AdminLTE/dist/css/adminlte.min.css">
-  <link rel="stylesheet" href="assets/AdminLTE/plugins/summernote/summernote-bs4.min.css">
+  <link rel="stylesheet" href="/assets/AdminLTE/dist/css/adminlte.min.css">
+  <link rel="stylesheet" href="/assets/AdminLTE/plugins/summernote/summernote-bs4.min.css">
 </head>
 <body class="hold-transition layout-top-nav">
 <div class="wrapper">
@@ -23,8 +23,8 @@ scratch. This page gets rid of all links and provides the needed markup only.
   <!-- Navbar -->
   <nav class="main-header navbar navbar-expand-md navbar-light navbar-white">
     <div class="container">
-      <a href="../../index3.html" class="navbar-brand">
-        <img src="../../dist/img/AdminLTELogo.png" alt="AdminLTE Logo" class="brand-image img-circle elevation-3" style="opacity: .8">
+      <a href="/assets/AdminLTE/index3.html" class="navbar-brand">
+        <img src="/assets/AdminLTE/img/AdminLTELogo.png" alt="AdminLTE Logo" class="brand-image img-circle elevation-3" style="opacity: .8">
         <span class="brand-text font-weight-light">AdminLTE 3</span>
       </a>
 
@@ -87,7 +87,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
             <a href="#" class="dropdown-item">
               <!-- Message Start -->
               <div class="media">
-                <img src="../../dist/img/user8-128x128.jpg" alt="User Avatar" class="img-size-50 img-circle mr-3">
+                <img src="/assets/AdminLTE/dist/img/user8-128x128.jpg" alt="User Avatar" class="img-size-50 img-circle mr-3">
                 <div class="media-body">
                   <h3 class="dropdown-item-title">
                     John Pierce
@@ -103,7 +103,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
             <a href="#" class="dropdown-item">
               <!-- Message Start -->
               <div class="media">
-                <img src="../../dist/img/user3-128x128.jpg" alt="User Avatar" class="img-size-50 img-circle mr-3">
+                <img src="/assets/AdminLTE/dist/img/user3-128x128.jpg" alt="User Avatar" class="img-size-50 img-circle mr-3">
                 <div class="media-body">
                   <h3 class="dropdown-item-title">
                     Nora Silvester
@@ -217,9 +217,9 @@ scratch. This page gets rid of all links and provides the needed markup only.
 <script src="assets/AdminLTE/dist/js/demo.js"></script>
 <script src="assets/AdminLTE/plugins/summernote/summernote-bs4.min.js"></script>
 <script>
-    $(function(
-        $('#deskripsi').summernote();
-    ))
+    $(function(){
+      $('#deskripsi').summernote();
+    })
 </script>
 </body>
 </html>
